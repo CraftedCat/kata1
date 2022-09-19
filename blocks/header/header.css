@@ -1,10 +1,63 @@
 .header {
     margin: 0;
     display: flex;
+    align-items: center;
+    justify-content: start;
+    height: 88px;
+}
+
+.header__container-logo-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.header__container-logo-buttons:after {
+    content: "";
+    position: absolute;
+    border-left: 2px #EAEAEA solid;
+    right: 0;
+    top: 25%;
+    height: 50%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.header__container-logo-buttons:before {
+    content: "";
+    position: absolute;
+    border-left: 2px #EAEAEA solid;
+    left: 0;
+    top: 25%;
+    height: 50%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+
+.header__buttons-first{
+    display: flex;
     list-style-type: none;
+    margin: 0;
+    align-items: stretch;
+}
+
+.header__buttons-second{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0 0 0 22px;
+    align-items: stretch;
 }
 
 .header__menu {
+    padding: 24px 20px 24px 24px;
+
+    /*padding: 24px 22px 24px 24px;*/
+
 }
 
 .header__logo {
@@ -14,12 +67,15 @@
 }
 
 .header__chat {
+    padding-left: 16px;
+    padding-right: 16px;
 }
 
 .header__profile {
 }
 
 .header__repair {
+    padding-right: 16px;
 }
 
 .header__status {
