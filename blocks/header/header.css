@@ -1,0 +1,26 @@
+.header {
+    margin: 0;
+    display: flex;
+    list-style-type: none;
+}
+
+.header__menu {
+}
+
+.header__logo {
+}
+
+.header__call {
+}
+
+.header__chat {
+}
+
+.header__profile {
+}
+
+.header__repair {
+}
+
+.header__status {
+}
