@@ -1,0 +1,18 @@
+@media (min-width: 321px) and (max-width: 1119px) {
+    .header__buttons-first {
+        /*display: none;*/
+        visibility: visible;
+    }
+    .header__menu {
+        visibility: visible;
+    }
+    .header__container-logo-buttons {
+        visibility: visible;
+    }
+}
+
+/*@media (min-width: 1120px) {*/
+/*    .header__menu {*/
+/*        visibility: visible;*/
+/*    }*/
+/*}*/

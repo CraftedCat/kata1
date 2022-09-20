@@ -2,9 +2,11 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" type="text/css" href="blocks/header/header.css"/>
+    <link rel="stylesheet" type="text/css" href="blocks/header/header_mobile.css"/>
     <meta charset="UTF-8">
     <meta name="keywords" content="Dell, услуги, ремонт, сервис">
     <meta name="description" content="Авторизованый сервис центр по ремонту техники Dell">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Услуги и сервисы</title>
 </head>
 <body>
@@ -24,20 +26,30 @@
     </ul>
 </header>
 <main>
-    <article>
-        <header>
-            <h1>Услуги и сервисы</h1>
-            <nav><ul>
-                <li>Ремонтируемые бренды</li>
-                <li>Ремонтируемые устройства</li>
-                <li>Цены на услуги</li>
-                <li>Адреса сервисных центров</li>
-                <li>Специальные цены</li>
-            </ul></nav>
+    <article class="article">
+        <header class="article-header">
+            <div class="article-header__highlight">
+                <img src="blocks/main/img/highlight.svg" alt="highlight"></div>
+            <h1 class="article-header__h1">Услуги и сервисы</h1>
         </header>
-        <p>Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.
-
-            Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера, что подтверждает большое количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.</p>
+        <nav><ul class="article-header__nav">
+            <li>Ремонтируемые бренды</li>
+            <li>Ремонтируемые устройства</li>
+            <li>Цены на услуги</li>
+            <li>Адреса сервисных центров</li>
+            <li>Специальные цены</li>
+        </ul></nav>
+        <div class="article__text">
+            <div>
+                <p>Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.</p>
+                <p>Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера, что подтверждает большое количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.</p>
+                <ul>
+                    <li><img src="blocks/main/img/expand.svg" alt=""></li>
+                    <li>Читать далее</li>
+                </ul>
+            </div>
+            <img src="blocks/main/img/article.png" alt="">
+        </div>
     </article>
 </main>
 </body>
