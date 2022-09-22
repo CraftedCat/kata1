@@ -7,13 +7,6 @@
             url("/fonts/TTLakes/TTLakes-Regular.woff") format("woff");
 }
 
-/*html {*/
-/*    box-sizing: border-box;*/
-/*}*/
-/**, *:before, *:after {*/
-/*    box-sizing: inherit;*/
-/*}*/
-
 body {
     padding: 0;
     font-family: "TTLakes", sans-serif;
@@ -146,26 +139,13 @@ body {
     display: flex;
     padding-left: 24px;
     padding-right: 24px;
-    justify-content: space-between;
-    /*border: 5px solid #0000FF;*/
+    align-content: flex-start;
 }
 
-.article__text img {
-    display: block;
-    /*border: 1px solid #000000;*/
-}
 
 .article__text p {
     padding-right: 48px;
 }
-
-/*.article__text img:first-child {*/
-/*    padding-left: 0;*/
-/*}*/
-
-/*.article__text img:last-child {*/
-/*    !*padding-left: 48px;*!*/
-/*}*/
 
 .article__text ul {
     display: flex;
@@ -177,4 +157,10 @@ body {
     color: black;
 }
 
-
+.article__image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    align-self: flex-start;
+    margin-top: 16px;
+}

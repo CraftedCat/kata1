@@ -1,7 +1,6 @@
 @media (min-width: 0px) and (max-width: 599px) {
     .header__buttons-first {
         display: none;
-        /*visibility: visible;*/
     }
     .header__menu {
         visibility: visible;
@@ -13,8 +12,9 @@
         padding-right: 16px;
     }
     .header__buttons-second{
-        /*padding: 16px;*/
         padding-left: 16px;
     }
-
+    .article__text {
+        flex-direction: column;
+    }
 }
