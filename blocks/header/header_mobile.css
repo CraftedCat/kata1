@@ -14,7 +14,5 @@
     .header__buttons-second{
         padding-left: 16px;
     }
-    .article__text {
-        flex-direction: column;
-    }
+
 }
