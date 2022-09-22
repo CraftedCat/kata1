@@ -1,0 +1,19 @@
+@media screen and (min-width: 600px) and (max-width: 1119px) {
+    .header__buttons-first {
+        /*display: none;*/
+        visibility: visible;
+    }
+    .header__menu {
+        visibility: visible;
+    }
+    .header__container-logo-buttons {
+        visibility: visible;
+    }
+    .header__container-logo-buttons:before{
+        visibility: visible;
+    }
+
+    .header__buttons-second{
+        padding-left: 0;
+    }
+}
