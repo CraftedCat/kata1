@@ -14,5 +14,7 @@
     .header__buttons-second{
         padding-left: 16px;
     }
-
+    .article__text div:first-child p:nth-last-child(2){
+        display: none;
+    }
 }

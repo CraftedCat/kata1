@@ -2,4 +2,10 @@
     .header__buttons-second li p{
         display: block;
     }
+    .article__text div:first-child{
+        max-width: 60%;
+    }
+    .article__text p {
+        padding-right: 48px;
+    }
 }

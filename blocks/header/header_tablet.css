@@ -15,4 +15,10 @@
     .header__buttons-second{
         padding-left: 0;
     }
+    .article__text div:first-child p:nth-last-child(2){
+        display: none;
+    }
+    .article__text p {
+        padding-right: 48px;
+    }
 }
