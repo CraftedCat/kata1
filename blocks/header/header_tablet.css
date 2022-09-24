@@ -21,4 +21,7 @@
     .article__text p {
         padding-right: 48px;
     }
+    .article__text div:first-child{
+        max-width: 60%;
+    }
 }
