@@ -103,7 +103,7 @@ body {
     background: #F8F8F8;
     padding-bottom: 40px;
     /*border: 5px solid #0000FF;*/
-    overflow: auto;
+    overflow-x: auto;
     overflow-y: hidden;
 
 }
