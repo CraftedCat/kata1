@@ -1,0 +1,37 @@
+.article {
+    background: #F8F8F8;
+    /*border: 5px solid #0000FF;*/
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.article-menu {
+    display: flex;
+    align-items: center;
+}
+
+.article-container {
+    display: flex;
+    align-content: flex-start;
+    gap: 24px;
+    margin: 24px;
+}
+
+.article-container__expand {
+    display: flex;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.article-container__link-expand {
+    text-decoration: none;
+    color: black;
+}
+
+.article-container__image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 16px;
+}
+

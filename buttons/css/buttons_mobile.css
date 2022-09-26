@@ -1,0 +1,9 @@
+@media (min-width: 0px) and (max-width: 599px) {
+    .header__logo-buttons {
+        visibility: visible;
+    }
+    .header__buttons {
+        display: none;
+    }
+
+}

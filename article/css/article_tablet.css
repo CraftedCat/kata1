@@ -1,0 +1,5 @@
+@media screen and (min-width: 600px) and (max-width: 1119px) {
+    .article-container__text-column_visible {
+        display: none;
+    }
+}

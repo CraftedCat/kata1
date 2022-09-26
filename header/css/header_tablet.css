@@ -1,0 +1,14 @@
+@media screen and (min-width: 600px) and (max-width: 1119px) {
+    .header__menu {
+        visibility: visible;
+    }
+    .article-container div:first-child p:nth-last-child(2){
+        display: none;
+    }
+    .article-container p {
+        padding-right: 48px;
+    }
+    .article-container div:first-child{
+        max-width: 60%;
+    }
+}

@@ -1,0 +1,38 @@
+@font-face {
+    font-family: "TTLakes";
+    font-style: normal;
+    font-weight: 400;
+    src:
+            local("Roboto-Regular"),
+            url("../../assets/fonts/TTLakes-Regular.woff") format("woff");
+}
+
+body {
+    padding: 0;
+    font-family: "TTLakes", sans-serif;
+
+}
+button {
+    border-style: none;
+    background-color: white;
+}
+
+.header-container {
+    width: 95%;
+    padding-left: 24px;
+    max-height: 88px;
+}
+
+.header {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /*border: 5px solid #000000;*/
+}
+
+.header__menu {
+    visibility: hidden;
+}
+
+

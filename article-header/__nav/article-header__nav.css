@@ -1,0 +1,19 @@
+.article-header__nav {
+    display: flex;
+    list-style-type: none;
+    font-size: 16px;
+    align-items: center;
+    padding-left: 24px;
+    color: #7E7E82;
+    white-space: nowrap;
+}
+
+.article-header__nav li:first-child{
+    border: 2px solid #B8FFEC;
+    border-radius: 6px;
+    background: #FFFFFF;
+}
+
+.article-header__nav li {
+    padding: 8px;
+}

@@ -1,0 +1,59 @@
+.header__logo-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    visibility: hidden;
+    /*border: 1px solid #000000;*/
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    flex-grow: 1;
+}
+
+.header__logo-buttons:after {
+    content: "";
+    position: absolute;
+    border-left: 2px #EAEAEA solid;
+    right: 0;
+    top: 30%;
+    height: 40%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.header__logo-buttons:before {
+    content: "";
+    position: absolute;
+    border-left: 2px #EAEAEA solid;
+    left: 0;
+    top: 30%;
+    height: 40%;
+    margin-top: auto;
+    margin-bottom: auto;
+    visibility: hidden;
+}
+
+.header__buttons{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    visibility: hidden;
+    gap: 8px;
+
+}
+
+.service-buttons{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    gap: 8px;
+    border: 1px solid #000000;
+}
+
+.service-buttons_display_block {
+    font-size: 16px;
+    height: 24px;
+    display: block;
+}

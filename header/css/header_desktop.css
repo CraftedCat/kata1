@@ -1,0 +1,8 @@
+@media screen and (min-width: 1120px) {
+    .article-container div:first-child{
+        max-width: 60%;
+    }
+    /*.article__text p {*/
+    /*    padding-right: 48px;*/
+    /*}*/
+}

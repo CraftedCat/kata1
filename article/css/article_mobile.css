@@ -1,0 +1,8 @@
+@media (min-width: 0px) and (max-width: 599px) {
+    .article-container {
+    flex-direction: column;
+    }
+    .article-container__text-column_visible{
+        display: none;
+    }
+}

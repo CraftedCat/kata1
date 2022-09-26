@@ -1,0 +1,9 @@
+@media (min-width: 0px) and (max-width: 599px) {
+    .header__menu {
+        visibility: visible;
+    }
+
+    .article-container div:first-child p:nth-last-child(2){
+        display: none;
+    }
+}

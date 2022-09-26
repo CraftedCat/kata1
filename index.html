@@ -1,11 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" type="text/css" href="blocks/header/header.css"/>
-    <link rel="stylesheet" type="text/css" href="blocks/header/header_mobile.css"/>
-    <link rel="stylesheet" type="text/css" href="blocks/header/header_tablet.css"/>
-    <link rel="stylesheet" type="text/css" href="blocks/header/header_desktop.css"/>
-    <link rel="stylesheet" type="text/css" href="blocks/main/main_mobile.css"/>
+    <link rel="stylesheet" type="text/css" href="header/css/header.css"/>
+    <link rel="stylesheet" type="text/css" href="header/css/header_mobile.css"/>
+    <link rel="stylesheet" type="text/css" href="header/css/header_tablet.css"/>
+    <link rel="stylesheet" type="text/css" href="header/css/header_desktop.css"/>
+    <link rel="stylesheet" type="text/css" href="buttons/css/buttons.css"/>
+    <link rel="stylesheet" type="text/css" href="buttons/css/buttons_mobile.css"/>
+    <link rel="stylesheet" type="text/css" href="buttons/css/buttons_tablet.css"/>
+    <link rel="stylesheet" type="text/css" href="article/css/article_mobile.css"/>
+    <link rel="stylesheet" type="text/css" href="article/css/article.css"/>
+    <link rel="stylesheet" type="text/css" href="article-header/article-header.css"/>
+    <link rel="stylesheet" type="text/css" href="article-header/__nav/article-header__nav.css"/>
     <meta charset="UTF-8">
     <meta name="keywords" content="Dell, услуги, ремонт, сервис">
     <meta name="description" content="Авторизованый сервис центр по ремонту техники Dell">
@@ -13,28 +19,30 @@
     <title>Услуги и сервисы</title>
 </head>
 <body>
+<div class="header-container">
 <header class="header">
-    <img class="header__menu" src="blocks/header/img/menu.svg" alt="menu">
-    <div class="header__container-logo-buttons">
-        <div><img src="blocks/header/img/logo.svg" alt="logo"></div>
-        <ul class="header__buttons-first">
-            <li class="header__call"><img src="blocks/header/img/call.svg" alt="call"></li>
-            <li class="header__chat"><img src="blocks/header/img/chat.svg" alt="chat"></li>
-            <li class="header__profile"><img src="blocks/header/img/profile.svg" alt="profile"></li>
+    <button><img class="header__menu" src="assets/icons/menu.svg" alt="menu"></button>
+    <div class="header__logo-buttons">
+        <div><img src="assets/icons/logo.svg" alt="logo"></div>
+        <ul class="header__buttons">
+            <li><button><img src="assets/icons/call.svg" alt="call"></button></li>
+            <li><button><img src="assets/icons/chat.svg" alt="chat"></button></li>
+            <li><button><img src="assets/icons/profile.svg" alt="profile"></button></li>
         </ul>
     </div>
-    <ul class="header__buttons-second">
-        <li class="header__repair"><p>Оставить заявку</p><img src="blocks/header/img/repair.svg" alt="repair"></li>
-        <li class="header__status"><p>Статус ремонта</p><img src="blocks/header/img/status.svg" alt="status"></li>
+    <ul class="service-buttons">
+        <li><p class="service-buttons_display_block">Оставить заявку</p><img src="assets/icons/repair.svg" alt="repair"></li>
+        <li><p class="service-buttons_display_block">Статус ремонта</p><img src="assets/icons/status.svg" alt="status"></li>
     </ul>
 </header>
+</div>
 <main>
     <article class="article">
-        <header class="article-header">
+        <div class="article-menu">
             <div class="article-header__highlight">
-                <img src="blocks/main/img/highlight.svg" alt="highlight"></div>
-            <h1 class="article-header__h1">Услуги и сервисы</h1>
-        </header>
+                <img src="assets/icons/highlight.svg" alt="highlight"></div>
+            <div class="article__title">Услуги и сервисы</div>
+        </div>
         <nav><ul class="article-header__nav">
             <li>Ремонтируемые бренды</li>
             <li>Ремонтируемые устройства</li>
@@ -43,17 +51,17 @@
             <li>Специальные цены</li>
             <li>Отзывы</li>
         </ul></nav>
-        <div class="article__text">
-            <div>
+        <div class="article-container">
+            <div class="article-container__text-column">
                 <p>Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.</p>
-                <p>Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера, что подтверждает большое количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.</p>
-                <ul>
-                    <li><img src="blocks/main/img/expand.svg" alt=""></li>
-                    <li>Читать далее</li>
+                <p class="article-container__text-column article-container__text-column_visible">Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера, что подтверждает большое количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.</p>
+                <ul class="article-container__expand">
+                    <li><img src="assets/icons/expand.svg" alt=""></li>
+                    <li><a class="article-container__link-expand" href="">Читать далее</a></li>
                 </ul>
             </div>
-            <div>
-            <img class="article__image" src="blocks/main/img/article.jpg" alt="">
+            <div class="article-container__image-column">
+            <img class="article-container__image" src="assets/img/article.jpg" alt="">
             </div>
         </div>
     </article>
