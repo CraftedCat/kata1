@@ -5,11 +5,6 @@
     overflow-y: hidden;
 }
 
-.article-menu {
-    display: flex;
-    align-items: center;
-}
-
 .article-container {
     display: flex;
     align-content: flex-start;

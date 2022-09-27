@@ -1,4 +1,4 @@
-.article-header__nav {
+.article__nav {
     display: flex;
     list-style-type: none;
     font-size: 16px;
@@ -8,12 +8,12 @@
     white-space: nowrap;
 }
 
-.article-header__nav li:first-child{
+.article__nav li:first-child{
     border: 2px solid #B8FFEC;
     border-radius: 6px;
     background: #FFFFFF;
 }
 
-.article-header__nav li {
+.article__nav li {
     padding: 8px;
 }

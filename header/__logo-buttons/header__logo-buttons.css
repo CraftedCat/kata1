@@ -34,26 +34,3 @@
     margin-bottom: auto;
     visibility: hidden;
 }
-
-.header__buttons{
-    display: flex;
-    list-style-type: none;
-    align-items: center;
-    visibility: hidden;
-    gap: 8px;
-
-}
-
-.service-buttons{
-    display: flex;
-    list-style-type: none;
-    align-items: center;
-    gap: 8px;
-    border: 1px solid #000000;
-}
-
-.service-buttons_display_block {
-    font-size: 16px;
-    height: 24px;
-    display: block;
-}

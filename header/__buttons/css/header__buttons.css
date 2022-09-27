@@ -1,0 +1,9 @@
+.header__buttons{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    visibility: hidden;
+    gap: 8px;
+}
+
+

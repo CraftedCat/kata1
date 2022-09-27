@@ -9,7 +9,10 @@
         visibility: visible;
     }
 
-    .service-buttons{
+    .header__service-buttons{
         padding-left: 0;
+    }
+    .service-buttons_display_block{
+        display: none;
     }
 }

@@ -1,17 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" type="text/css" href="header/__logo-buttons/header__logo-buttons.css"/>
+    <link rel="stylesheet" type="text/css" href="header/__service-buttons/header__service-buttons.css"/>
     <link rel="stylesheet" type="text/css" href="header/css/header.css"/>
     <link rel="stylesheet" type="text/css" href="header/css/header_mobile.css"/>
     <link rel="stylesheet" type="text/css" href="header/css/header_tablet.css"/>
     <link rel="stylesheet" type="text/css" href="header/css/header_desktop.css"/>
-    <link rel="stylesheet" type="text/css" href="buttons/css/buttons.css"/>
-    <link rel="stylesheet" type="text/css" href="buttons/css/buttons_mobile.css"/>
-    <link rel="stylesheet" type="text/css" href="buttons/css/buttons_tablet.css"/>
+    <link rel="stylesheet" type="text/css" href="header/__buttons/css/header__buttons.css"/>
+    <link rel="stylesheet" type="text/css" href="header/__buttons/css/header__buttons_mobile.css"/>
+    <link rel="stylesheet" type="text/css" href="header/__buttons/css/header__buttons_tablet.css"/>
+    <link rel="stylesheet" type="text/css" href="header/__buttons/css/header__buttons_desktop.css"/>
     <link rel="stylesheet" type="text/css" href="article/css/article_mobile.css"/>
     <link rel="stylesheet" type="text/css" href="article/css/article.css"/>
-    <link rel="stylesheet" type="text/css" href="article-header/article-header.css"/>
-    <link rel="stylesheet" type="text/css" href="article-header/__nav/article-header__nav.css"/>
+    <link rel="stylesheet" type="text/css" href="article/__title/article__title.css"/>
+    <link rel="stylesheet" type="text/css" href="article/__nav/article__nav.css"/>
     <meta charset="UTF-8">
     <meta name="keywords" content="Dell, услуги, ремонт, сервис">
     <meta name="description" content="Авторизованый сервис центр по ремонту техники Dell">
@@ -30,20 +33,16 @@
             <li><button><img src="assets/icons/profile.svg" alt="profile"></button></li>
         </ul>
     </div>
-    <ul class="service-buttons">
-        <li><p class="service-buttons_display_block">Оставить заявку</p><img src="assets/icons/repair.svg" alt="repair"></li>
-        <li><p class="service-buttons_display_block">Статус ремонта</p><img src="assets/icons/status.svg" alt="status"></li>
+    <ul class="header__service-buttons">
+        <li style="display: flex;"><p class="service-buttons_display_block">Оставить заявку</p><img src="assets/icons/repair.svg" alt="repair"></li>
+        <li style="display: flex;"><p class="service-buttons_display_block">Статус ремонта</p><img src="assets/icons/status.svg" alt="status"></li>
     </ul>
 </header>
 </div>
 <main>
     <article class="article">
-        <div class="article-menu">
-            <div class="article-header__highlight">
-                <img src="assets/icons/highlight.svg" alt="highlight"></div>
-            <div class="article__title">Услуги и сервисы</div>
-        </div>
-        <nav><ul class="article-header__nav">
+        <p class="article__title">Услуги и сервисы</p>
+        <nav><ul class="article__nav">
             <li>Ремонтируемые бренды</li>
             <li>Ремонтируемые устройства</li>
             <li>Цены на услуги</li>

@@ -5,5 +5,7 @@
     .header__buttons {
         display: none;
     }
-
+    .service-buttons_display_block{
+        display: none;
+    }
 }
