@@ -10,5 +10,7 @@
 }
 
 .article__title:before{
+
+
     content:url("../../assets/icons/highlight.svg");
 }
