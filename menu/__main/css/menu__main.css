@@ -9,7 +9,8 @@
     opacity: 0.5;
 }
 
-.menu__main li a:hover + .menu__main li a:before {
+.menu__main li a:hover:before {
+    transition: 0.5s;
     opacity: 1;
 }
 
