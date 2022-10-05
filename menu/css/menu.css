@@ -27,7 +27,7 @@ a {
     color: #1B1C21;
 }
 
-.menu__container {
+.container-main-footer {
     display: flex;
     padding: 0;
     flex-direction: column;

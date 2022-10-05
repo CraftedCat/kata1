@@ -14,7 +14,7 @@
     align-items: flex-start;
 }
 
-.menu__footer_contacts {
+.menu__footer-contacts {
     display: flex;
     flex-direction: column;
     list-style-type: none;
