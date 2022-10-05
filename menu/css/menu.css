@@ -32,7 +32,7 @@ a:hover{
     opacity: 0.5;
 }
 
-.main__container-main-footer {
+.menu__container-main-footer {
     display: flex;
     padding: 0;
     flex-direction: column;
