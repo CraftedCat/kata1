@@ -25,9 +25,14 @@ button {
 a {
     text-decoration: none;
     color: #1B1C21;
+    font-weight: bold;
 }
 
-.container-main-footer {
+a:hover{
+    opacity: 0.5;
+}
+
+.main__container-main-footer {
     display: flex;
     padding: 0;
     flex-direction: column;
