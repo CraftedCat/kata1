@@ -2,7 +2,7 @@
     left: 0;
     top: 0;
     position: fixed;
-    min-width: 320px;
+    max-width: 320px;
     font-family: "TTLakes", sans-serif;
     font-size: 16px;
     line-height: 24px;
@@ -15,7 +15,7 @@
 
 .inner-container {
     padding: 24px;
-    border: #1B1C21 1px solid;
+    /*border: #1B1C21 1px solid;*/
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -45,5 +45,4 @@ a:hover{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    /*border: #1B1C21 1px solid;*/
 }

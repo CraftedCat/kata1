@@ -1,0 +1,6 @@
+.menu-footer-list-lang {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    column-gap: 12px;
+}

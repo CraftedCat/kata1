@@ -1,13 +1,5 @@
-.menu-footer-buttons{
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    gap: 16px;
-}
 
-.menu-footer  {
-    padding-bottom: 48px;
-}
+
 
 .menu-container__footer-list-contacts {
     display: flex;
@@ -18,17 +10,5 @@
     gap: 8px;
 }
 
-.menu-footer-list-lang {
-    display: flex;
-    list-style-type: none;
-    padding: 0;
-    column-gap: 12px;
-}
 
-.menu-footer-tel {
-    font-size: 24px;
-    line-height: 32px;
-    letter-spacing: -0.6px;
-    color: #1B1C21;
-    font-weight: bold;
-}
+

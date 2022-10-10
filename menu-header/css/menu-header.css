@@ -1,0 +1,12 @@
+.menu-header__list{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    gap: 8px;
+}
+
+.menu-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
