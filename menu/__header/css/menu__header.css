@@ -1,13 +1,12 @@
-.menu__header-close-logo{
+.menu-header__list{
     display: flex;
     list-style-type: none;
     align-items: center;
-    padding: 0;
+    gap: 8px;
 }
 
-.menu__header {
+.menu-header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 24px 0 24px;
 }
