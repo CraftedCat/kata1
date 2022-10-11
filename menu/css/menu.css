@@ -13,7 +13,7 @@
     box-shadow: -2px 0 4px rgba(69, 79, 126, 0.02), 16px 0 52px rgba(14, 24, 80, 0.2);
 }
 
-.inner-container {
+.menu-inner-container {
     padding: 24px;
     /*border: #1B1C21 1px solid;*/
     display: flex;
@@ -22,11 +22,11 @@
     height: 100%;
 }
 
-button {
-    border-style: none;
-    background-color: white;
-    padding: 0;
+.menu-container {
+    display: flex;
+    flex-direction: column;
 }
+
 
 a {
     display: inline-block;
@@ -41,8 +41,4 @@ a:hover{
     opacity: 0.5;
 }
 
-.menu-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
+

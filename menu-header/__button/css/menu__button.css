@@ -1,0 +1,11 @@
+.menu__button:hover {
+    cursor: pointer;
+}
+
+.menu__button:focus{
+    cursor: pointer;
+}
+
+.menu__button:active{
+    cursor: pointer;
+}
