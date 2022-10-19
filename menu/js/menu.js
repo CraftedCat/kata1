@@ -4,12 +4,12 @@ const menuCloseButton = document.querySelector(".menu__button.close")
 
 menuShowButton.addEventListener("click", function (evt){
     evt.preventDefault();
-    console.log("Click Menu!")
+    console.log("Show menu!")
     menu.style.visibility = "visible";
 });
 
 menuCloseButton.addEventListener("click", function (evt){
     evt.preventDefault();
-    console.log("Click Menu!")
+    console.log("Close Menu!")
     menu.style.visibility = "hidden";
 });
