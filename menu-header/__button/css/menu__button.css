@@ -9,3 +9,7 @@
 .menu__button:active{
     cursor: pointer;
 }
+
+.menu__button.close{
+
+}

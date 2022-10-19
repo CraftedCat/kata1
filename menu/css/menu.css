@@ -8,7 +8,7 @@
     line-height: 24px;
     letter-spacing: -0.2px;
     height: 100%;
-    visibility: visible;
+    visibility: hidden;
     background: #FFFFFF;
     box-shadow: -2px 0 4px rgba(69, 79, 126, 0.02), 16px 0 52px rgba(14, 24, 80, 0.2);
 }
