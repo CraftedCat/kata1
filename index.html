@@ -65,10 +65,7 @@
             <div class="article-container__text-column">
                 <p>Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.</p>
                 <p class="article-container__text-column article-container__text-column_visible">Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера, что подтверждает большое количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.</p>
-                <ul class="article-container__expand">
-                    <li><img src="assets/icons/expand.svg" alt=""></li>
-                    <li><a class="article-container__link-expand" href="">Читать далее</a></li>
-                </ul>
+                <a class="content-expand" href="">Читать далее</a>
             </div>
             <div class="article-container__image-column">
             <img class="article-container__image" src="assets/img/article.jpg" alt="">
@@ -113,19 +110,21 @@
         </div>
     </aside>
     <aside class="repaired-brands">
-        <p>BRANDS</p>
-<!--        <template id="repaired-brand">-->
-            <button>
-                <div class="repaired-brand-container">
-                    <img class="repaired-brand-container__image" src="assets/icons/brands/lenovo.svg" alt="lenovo logo">
-                    <img class="repaired-brand-container__image" src="assets/icons/brands/go.svg" alt="button go">
-                </div>
-            </button>
-
-<!--        </template>-->
+        <p class="repaired-brands__title">Ремонт техники различных брендов</p>
+        <div class="repaired-brands-container">
+            <template id="repaired-brand-template">
+                <button class="repaired-brand__button">
+                        <img class="repaired-brand-container__image" src="assets/icons/brands/lenovo.svg" alt="lenovo logo">
+                        <img class="repaired-brand-container__image-arrow" src="assets/icons/brands/go.svg" alt="button go">
+                </button>
+            </template>
+        </div>
+        <a class="content-expand content-expand-repaired-buttons repaired-brands-container__link-expand" href="">Показать всё</a>
 
     </aside>
 </main>
 <script src="menu/js/menu.js"></script>
+<script src="repaired-brands/js/repaired-brands.js"></script>
+
 </body>
 </html>

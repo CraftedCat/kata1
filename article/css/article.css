@@ -12,16 +12,21 @@
     margin: 24px;
 }
 
-.article-container__expand {
+.content-expand {
     display: flex;
     list-style-type: none;
-    padding-left: 0;
+    padding: 12px;
 }
 
-.article-container__link-expand {
-    text-decoration: none;
-    color: black;
+.content-expand:before{
+    /*opacity: 0;*/
+    position: relative;
+    right: 24px;
+    content:url("../../assets/icons/expand.svg");
+    width: 10px;
+    height: 10px;
 }
+
 
 .article-container__image {
     max-width: 100%;

@@ -1,22 +1,49 @@
 .repaired-brands {
+    padding-left: 32px;
     width: 1120px;
-    height: 421px;
     background: #F8F8F8;
 }
 
-.repaired-brand-container {
+
+.repaired-brands__title {
+    display: block;
+    background: linear-gradient(90deg, #F8F8F8 0%, #FFFFFF 98.61% );
+    line-height: 56px;
+    vertical-align: center;
+    letter-spacing: -0.2px;
+    text-transform: uppercase;
+    color: #7E7E82;
+}
+
+.repaired-brands-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 32px;
+    flex-wrap: wrap;
+}
+
+.repaired-brand__button {
     box-sizing: border-box;
     display: flex;
-    width: 224px;
+    width: 240px;
     height: 72px;
     justify-content: space-between;
     background: #FFFFFF;
     border: 1px solid #EAEAEA;
     border-radius: 6px;
-
 }
 
-.repaired-brand-container__image {
+.repaired-brand-container__image, .repaired-brand-container__image-arrow {
     max-width: 50%;
     padding: 16px;
 }
+
+.content-expand-repaired-buttons {
+    font-style: normal;
+    font-weight:700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    color: #1B1C21;
+}
+
