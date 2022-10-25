@@ -11,6 +11,14 @@ const logos = [
     "../assets/icons/brands/samsung.svg",
     "../assets/icons/brands/apple.svg",
 ];
+const windowInnerWidth = window.innerWidth;
+console.log(windowInnerWidth);
+let pallet = document.querySelector(".repaired-brands");
+pallet.setAttribute('width', String(windowInnerWidth));
+const buttonFullWidth = 272;
+const buttonsPerLine = Math.floor(windowInnerWidth / buttonFullWidth);
+const countButtonsToShow = buttonsPerLine*2;
+console.log(buttonsPerLine);
 
 let stateItem = false;
 
@@ -26,7 +34,7 @@ let cloneButton = function (imgSrc) {
 }
 
 
-for (let i = 0; i < logos.length-3; i++) {
+for (let i = 0; i < countButtonsToShow; i++) {
     let clonedElement = cloneButton(logos[i]);
     buttonsContainer.appendChild(clonedElement);
 }
@@ -34,10 +42,9 @@ for (let i = 0; i < logos.length-3; i++) {
 let showAllButtons = document.querySelector(".content-expand-repaired-buttons");
 showAllButtons.addEventListener('click', function (evt){
     evt.preventDefault()
-    let allButtons;
     if (!stateItem) {
         stateItem = true;
-        for (let i = logos.length - 3; i < logos.length; i++) {
+        for (let i = logos.length - countButtonsToShow; i < logos.length; i++) {
             let clonedElement = cloneButton(logos[i]);
             buttonsContainer.appendChild(clonedElement);
         }
@@ -45,8 +52,8 @@ showAllButtons.addEventListener('click', function (evt){
 
     } else {
         stateItem = false;
-        allButtons = buttonsContainer.querySelectorAll("button")
-        for (let i = logos.length - 3; i < logos.length; i++) {
+        let allButtons = buttonsContainer.querySelectorAll("button")
+        for (let i = logos.length - countButtonsToShow; i < logos.length; i++) {
             allButtons[i].remove()
         }
         showAllButtons.innerHTML = 'Показать всё';
