@@ -2,6 +2,7 @@
 <html lang="ru">
 <head>
     <link rel="stylesheet" type="text/css" href="repaired-brands/css/repaired-brands.css"/>
+    <link rel="stylesheet" href="repaired-brands/css/swiper-bundle.css"/>
     <link rel="stylesheet" type="text/css" href="header/__logo-buttons/header__logo-buttons.css"/>
     <link rel="stylesheet" type="text/css" href="header/__service-buttons/header__service-buttons.css"/>
     <link rel="stylesheet" type="text/css" href="header/css/header.css"/>
@@ -25,8 +26,6 @@
     <link rel="stylesheet" href="menu-footer-list-lang/css/menu-footer-list-lang.css">
     <link rel="stylesheet" href="menu-footer-mail/css/menu-footer-mail.css">
     <link rel="stylesheet" href="menu-footer-tel/css/menu-footer-tel.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
-
 
     <meta charset="UTF-8">
     <meta name="keywords" content="Dell, услуги, ремонт, сервис">
@@ -114,19 +113,21 @@
     <aside class="repaired-brands">
         <p class="repaired-brands__title">Ремонт техники различных брендов</p>
         <div class="repaired-brands-container">
-            <template id="repaired-brand-template">
-                <button class="repaired-brand__button">
+            <div class="swiper-wrapper">
+                <template id="repaired-brand-template">
+                    <button class="repaired-brand__button">
                         <img class="repaired-brand-container__image" src="assets/icons/brands/lenovo.svg" alt="lenovo logo">
                         <img class="repaired-brand-container__image-arrow" src="assets/icons/brands/go.svg" alt="button go">
-                </button>
-            </template>
+                    </button>
+                </template>
+            </div>
+        <div class="swiper-pagination"></div>
         </div>
-        <a class="content-expand content-expand-repaired-buttons" href="">Показать всё</a>
-
+        <a class="content-expand content-expand-repaired-buttons" href="#">Показать всё</a>
     </aside>
 </main>
 <script src="menu/js/menu.js"></script>
+<script src="repaired-brands/js/swiper-bundle.js"></script>
 <script src="repaired-brands/js/repaired-brands.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 </body>
 </html>

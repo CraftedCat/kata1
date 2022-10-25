@@ -22,6 +22,7 @@
 }
 
 .repaired-brand__button {
+    /*position: relative;*/
     box-sizing: border-box;
     display: flex;
     width: 240px;
