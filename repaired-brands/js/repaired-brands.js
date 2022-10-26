@@ -21,7 +21,7 @@ const buttonFullWidth = 272;
 const buttonsPerLine = Math.floor(windowInnerWidth / buttonFullWidth);
 const countButtonsToShow = buttonsPerLine*2;
 console.log(buttonsPerLine);
-const showAllButtons = document.querySelector(".content-expand-repaired-buttons");
+const showAllButton = document.querySelector(".content-expand-repaired-buttons");
 let stateItem = false;
 
 const buttonsContainer = document.querySelector(".repaired-brands-container");
@@ -44,9 +44,9 @@ function createButtons(itemLength){
 function mobileSlider(){
     if (windowInnerWidth < 768) {
         createButtons(logos.length);
-        showAllButtons.remove();
+        showAllButton.remove();
         console.log("Try create swiper!")
-        swiper = new Swiper (buttonsContainer, {
+        swiper = new Swiper ('.repaired-brands-container', {
            slidesPerView: 1.25,
            spaceBetween: 16,
            slideClass: 'repaired-brand__button',
@@ -65,7 +65,7 @@ function mobileSlider(){
 mobileSlider();
 
 
-showAllButtons.addEventListener('click', function (evt){
+showAllButton.addEventListener('click', function (evt){
     if (windowInnerWidth >= 768) {
         evt.preventDefault()
         if (!stateItem) {
@@ -74,7 +74,7 @@ showAllButtons.addEventListener('click', function (evt){
                 let clonedElement = cloneButton(logos[i]);
                 buttonsContainer.appendChild(clonedElement);
             }
-            showAllButtons.innerHTML = 'Скрыть всё';
+            showAllButton.innerHTML = 'Скрыть всё';
 
         } else {
             stateItem = false;
@@ -82,7 +82,7 @@ showAllButtons.addEventListener('click', function (evt){
             for (let i = logos.length - countButtonsToShow; i < logos.length; i++) {
                 allButtons[i].remove()
             }
-            showAllButtons.innerHTML = 'Показать всё';
+            showAllButton.innerHTML = 'Показать всё';
 
         }
     }
