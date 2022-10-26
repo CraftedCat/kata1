@@ -1,17 +1,17 @@
 let swiper;
 
 const logos = [
-    "../../assets/icons/brands/acer.svg",
-    "../../assets/icons/brands/apple.svg",
-    "../../assets/icons/brands/bosh.svg",
-    "../../assets/icons/brands/hp.svg",
-    "../../assets/icons/brands/lenovo.svg",
-    "../../assets/icons/brands/samsung.svg",
-    "../../assets/icons/brands/sony.svg",
-    "../../assets/icons/brands/viewsonic.svg",
-    "../../assets/icons/brands/lenovo.svg",
-    "../../assets/icons/brands/samsung.svg",
-    "../../assets/icons/brands/apple.svg",
+    "../assets/icons/brands/acer.svg",
+    "../assets/icons/brands/apple.svg",
+    "../assets/icons/brands/bosh.svg",
+    "../assets/icons/brands/hp.svg",
+    "../assets/icons/brands/lenovo.svg",
+    "../assets/icons/brands/samsung.svg",
+    "../assets/icons/brands/sony.svg",
+    "../assets/icons/brands/viewsonic.svg",
+    "../assets/icons/brands/lenovo.svg",
+    "../assets/icons/brands/samsung.svg",
+    "../assets/icons/brands/apple.svg",
 ];
 const windowInnerWidth = window.innerWidth;
 console.log(windowInnerWidth);
